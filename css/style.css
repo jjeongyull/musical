@@ -1,0 +1,113 @@
+body{ background-image: url(../images/background222.png); background-repeat: no-repeat; background-position: top;
+    background-size:100%  ;
+      background-color: black;}
+header{width: 1440px; margin: auto; border-bottom: 1px solid white; height: 170px; margin-top: 5px;}
+.nav{display: flex; justify-content: space-between;}
+h1{font-family: 'Quintessential'; color: white; margin-left: 30px; margin-top: 30px;
+  font-size: 70px; letter-spacing: 8px;}
+h1 span{color: black; font-size: 80px; text-shadow: 0 0 5px white; font-style: italic;}
+.side{display: flex; margin-top: 50px;}
+.side a{font-size: 25px; color: white; text-align: center; width: 80px;  
+       display: block; height: 20px; line-height: 20px; margin-right: 20px; background-color: black;
+       width: 180px; height: 80px; line-height: 80px; border-radius: 10px; box-shadow: 0 0 3px white;
+       font-weight: bold; }
+.side a:hover{background-color: white; color: black; box-shadow: 0 0 3px black; font-weight: bold;}
+section{width: 1440px; margin: auto; margin-top: 30px;}
+.mainsection{display: flex; margin-bottom: 150px;}
+.imgBox{width: 700px; height: 466px; margin-bottom: 15px;}
+.imgBox>div{position: absolute; box-shadow: 0 0 2px white; opacity: 0; transition: 1s;}
+.imgBox>div.active{opacity: 1;}
+.pager{position: relative; display: flex; margin: auto; width: 200px; justify-content: space-around;}
+.pager a{width: 20px; height: 20px; background-color: white; display: block; border-radius: 20px;}
+.pager a.active{background-color: black; outline: 1px solid white;}
+.nav2{width: 50%; text-align: center; padding-top: 40px;}
+.sectionTitle{ color: white; font-size: 70px;}
+.sectionTitle>span{font-size: 90px; color: black; text-shadow: 3px 3px 3px white;
+                   font-style: italic;}
+.sectionTitle2{margin-top: 20px; margin-bottom: 40px;}
+.sectionTitle2>div{font-size: 30px; color: white; letter-spacing: 5px; text-shadow: 3px 3px 3px black;
+                   line-height: 40px;}
+.gnb{display: flex; justify-content: center;}
+.gnb>li{padding-right: 20px;}
+.gnb>li>a{display: block; width: 230px; background-color:black; height: 80px; line-height: 80px;
+           font-size: 30px; font-weight: bold; border-radius: 50px; color: white;
+         box-shadow: 0 0 5px white; }
+.gnb a:hover{background-color: white; color: black; box-shadow: 0 0 3px black;}
+.menu1{margin-bottom: 150px;}
+.menu12{display: flex; justify-content: space-between; color: white; margin-bottom: 40px;}
+.menu12>h2{font-size: 20px; font-weight: bold; width: 160px; background-color: black; text-align: center;
+           height: 45px; line-height: 45px; border-radius: 45px; box-shadow: 0 0 3px white; }
+.menu12>div{margin-top: 15px; margin-right: 40px; background-color: black; width: 60px; height: 30px;
+           text-align: center; line-height: 30px; border-radius: 30px; box-shadow: 0 0 3px white;}
+.menu12 div:hover a{background-color: white; color: black; box-shadow: 0 0 3px black;}
+.menu12 a{display: block; width: 60px; height: 30px; border-radius: 30px;}
+.menu11{display: flex; justify-content: space-around; margin-top: 20px; }
+.menu11 img{width: 200px; height: 300px;; position: relative; outline: 1px solid white; outline-offset: 3px; }
+.menu11 li:hover .streaming{display: block;}
+.streaming>a:hover{background-color: white; color: black; box-shadow: 0 0 3px black; font-weight: bold;}
+.streaming{position: absolute; display: none; }
+.streaming>a{position: absolute; display: block; width: 120px; height: 40px; background-color: black;
+            text-align: center; border-radius: 40px; line-height: 40px; font-size: 15px; top: -170px;
+            color: white; font-weight: bold; left: 40px;}
+
+.menu2{margin-top: 40px; margin-bottom: 150px;}
+.menu21{display: flex; justify-content: space-around; margin-top: 30px;}
+.menu21 img{outline: 1px solid white; outline-offset: 3px;}
+.streaming2{position: absolute; display: none;}
+.streaming2>a{position: absolute; display: block; width: 120px; height: 40px; background-color: black;
+   text-align: center; border-radius: 40px; line-height: 40px; font-size: 15px; color: white;
+   font-weight: bold; top: -120px; left: 45px;}
+.menu21 li:hover .streaming2{display: block;}
+.streaming2>a:hover{background-color: white; color: black; box-shadow: 0 0 3px black; font-weight: bold;}
+.section2{display: flex; justify-content: space-between; margin-bottom: 150px;}
+.gallGroup{position: relative;}
+.gallGroup>div{width: 400px; height: 266px; position: absolute; opacity: 0; transition: 1s;}
+.gallGroup img{position: absolute; left: 150px; top: 60px;}
+.sectionText{width: 50%; height: 400px;}
+.sectionText>div{color: white; text-align: center; }
+.text01{margin-top: 130px;}
+.text01>div{font-size: 30px; line-height: 50px; font-weight: bold;}
+.section3{margin-bottom: 200px;}
+.section3>div{text-align: center; color: white; font-size: 50px; font-weight: bold; margin-bottom: 80px;}
+.section31{ display: flex; justify-content: space-around;}
+.section31 li{margin-bottom: 30px;}
+.section4{padding-bottom: 200px;}
+.section4Text{text-align: center; font-size: 40px; font-weight: bold; color: white; margin-bottom: 100px;}
+.sectionIcon{display: flex; justify-content: space-around;}
+.sectionIcon img{width: 300px; height: 150px;}
+.sectionIcon li{text-align: center; font-size: 20px;}
+.iconTitle{ font-size: 30px; color: white; font-weight: bold; margin-bottom: 20px;}
+footer{width: 100%; height: 280px; background-color: rgb(141, 9, 9); margin-top: 100px;}
+.footer{width: 1440px; margin: auto; padding-top: 30px; color: white;}
+.footer>h3{text-align: center; margin-bottom: 30px; font-size: 20px;}
+.footerText1{display: flex; justify-content: space-around; margin-bottom: 40px;}
+.footerText1 a:hover{color: black;}
+.footerText2{text-align: center; line-height: 30px;}
+
+.accordion{margin-bottom: 150px;}
+.accordion div{background-color: black;}
+label{background-color: black;}
+input[id*="answer"]{
+   display: none;
+}
+input[id*="answer"] + label{
+   display: block; padding: 30px; border: 1px solid white; font-size: 30px; font-weight: bold;
+   color: white; border-bottom: none; cursor: pointer; position: relative;
+}
+input[id*="answer"] + label em{
+   position: absolute; top: 50%; right: 40px; width: 30px; height: 30px; margin-top: -15px;
+   display: inline-block; background: url(../images/accordion.png) 0 0 no-repeat;
+}
+input[id*="answer"] + label + div{
+   max-height: 0; transition: all 0.35s; overflow: hidden; border: 1px solid white;
+   border-top: none; margin-bottom: 30px;
+}
+input[id*="answer"] + label + div p{
+   display: block; padding: 20px; color: white; font-size: 30px; line-height: 50px;
+}
+input[id*="answer"]:checked + label + div{
+   max-height: 500px; 
+}
+input[id*="answer"]:checked + label em{
+   background-position: 0 -30px;
+}

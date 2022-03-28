@@ -1,0 +1,34 @@
+body{ background-image: url(../images/background222.png); background-repeat: no-repeat; background-position: top;
+    background-size:100%  ;
+      background-color: black;}
+header{width: 1440px; margin: auto; border-bottom: 1px solid white; height: 170px; margin-top: 5px;}
+.nav{display: flex; justify-content: space-between;}
+h1{font-family: 'Quintessential'; color: white; margin-left: 30px; margin-top: 30px;
+  font-size: 70px; letter-spacing: 8px;}
+h1 span{color: black; font-size: 80px; text-shadow: 0 0 5px white; font-style: italic;}
+.side{display: flex; margin-top: 50px;}
+.side a{font-size: 25px; color: white; text-align: center; width: 80px;  
+       display: block; height: 20px; line-height: 20px; margin-right: 20px; background-color: black;
+       width: 180px; height: 80px; line-height: 80px; border-radius: 10px; box-shadow: 0 0 3px white;
+       font-weight: bold; }
+.side a:hover{background-color: white; color: black; box-shadow: 0 0 3px black; font-weight: bold;}
+.side li:nth-child(2) a{background-color: white; color: black;}
+section{width: 1200px; margin: auto;}
+form[name='login']{width:300px; margin: auto; margin-top: 100px;}
+input{display: block;}
+label{display: block; font-size: 30px; font-weight: bold; color: #fff; text-shadow: 1px 0 0 black; margin-bottom: 10px;}
+input[name='userId']{width: 300px; height: 40px; margin-bottom: 20px; font-size: 15px; border: 1px solid white; background-color: black; color: white; border-radius: 5px;}
+input[name='userPwd']{width: 300px; height: 40px; margin-bottom: 10px; font-size: 15px; border: 1px solid white; background-color: black; color: white; border-radius: 5px;}
+input:focus{border: 2px solid white;}
+input::placeholder{padding-left: 10px;}
+input:focus::placeholder{color: white;}
+.login{width: 500px; height: 500px; border: 2px solid white; margin: auto; margin-top: 30px;}
+a{display: inline-block; color: #fff;  }
+button{width: 100px; height: 50px; margin-left: 200px; margin-top: 10px; font-size: 20px;
+       font-weight: bold; background-color: black; border: 2px solid white; color: #fff;}
+footer{width: 100%; height: 280px; background-color: rgb(141, 9, 9); margin-top: 100px;}
+.footer{width: 1440px; margin: auto; padding-top: 30px; color: white;}
+.footer>h3{text-align: center; margin-bottom: 30px; font-size: 20px;}
+.footerText1{display: flex; justify-content: space-around; margin-bottom: 40px;}
+.footerText1 a:hover{color: black;}
+.footerText2{text-align: center; line-height: 30px;}
